@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{81ccb81a-7f2f-4f45-b2d7-727a10a302ba}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1c1499cc-5c4d-4c6c-ae4e-8097431d0308}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{7c70d82e-3aa0-4ef1-bf7f-3c91a83c1491}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\jigsaw.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back960_640_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back960_640.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\girl.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound2.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound1.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound3.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound4.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backgound1.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stopButton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stopButtonSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stopBackground.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bottom.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jigsaw.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="jigsaw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Pieces.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MySound.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StopLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CutManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MySound.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StopLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CutManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

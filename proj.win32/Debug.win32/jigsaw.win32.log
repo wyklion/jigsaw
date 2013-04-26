@@ -1,0 +1,54 @@
+﻿生成启动时间为 4/26/2013 8:11:56 PM。
+     1>项目“D:\work\VS2010workspace\kkFun\jigsaw\proj.win32\jigsaw.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\jigsaw.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /ID:\work\VS2010workspace\kkFun\cocos2dx /ID:\work\VS2010workspace\kkFun\cocos2dx\include /ID:\work\VS2010workspace\kkFun\cocos2dx\kazmath\include /ID:\work\VS2010workspace\kkFun\cocos2dx\platform\win32 /ID:\work\VS2010workspace\kkFun\cocos2dx\platform\third_party\win32 /ID:\work\VS2010workspace\kkFun\cocos2dx\platform\third_party\win32\OGLES /ID:\work\VS2010workspace\kkFun\CocosDenshion\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp BaseLayer.cpp CutManager.cpp LoadScene.cpp main.cpp MainMenu.cpp MySound.cpp PieceManager.cpp Pieces.cpp PlayLayer.cpp SceneManager.cpp StopLayer.cpp
+         StopLayer.cpp
+         SceneManager.cpp
+         PlayLayer.cpp
+         Pieces.cpp
+         PieceManager.cpp
+         MySound.cpp
+         MainMenu.cpp
+         main.cpp
+         LoadScene.cpp
+         CutManager.cpp
+         BaseLayer.cpp
+         HelloWorldScene.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug.win32\ /nologo /fo"Debug.win32\jigsaw.res" jigsaw.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\jigsaw.win32.exe.embed.manifest.res" Debug.win32\jigsaw.win32_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\VS2010workspace\kkFun\Debug.win32\jigsaw.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\work\VS2010workspace\kkFun\Debug.win32\ libcocos2d.lib opengl32.lib glew32.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\jigsaw.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\VS2010workspace\kkFun\Debug.win32\jigsaw.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\VS2010workspace\kkFun\Debug.win32\jigsaw.win32.lib" /MACHINE:X86 Debug.win32\jigsaw.res
+         Debug.win32\jigsaw.win32.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\BaseLayer.obj
+         Debug.win32\CutManager.obj
+         Debug.win32\LoadScene.obj
+         Debug.win32\main.obj
+         Debug.win32\MainMenu.obj
+         Debug.win32\MySound.obj
+         Debug.win32\PieceManager.obj
+         Debug.win32\Pieces.obj
+         Debug.win32\PlayLayer.obj
+         Debug.win32\SceneManager.obj
+         Debug.win32\StopLayer.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\jigsaw.win32.exe.embed.manifest" /manifest Debug.win32\jigsaw.win32.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         jigsaw.win32.vcxproj -> D:\work\VS2010workspace\kkFun\Debug.win32\jigsaw.win32.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\jigsaw.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\jigsaw.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\work\VS2010workspace\kkFun\jigsaw\proj.win32\jigsaw.win32.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.24
